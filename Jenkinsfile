@@ -20,9 +20,9 @@ node {
             sh "rm -fr ostraca.yml"
             sh "wget https://github.com/murakami0512/ostraca/raw/master/playbook/ostraca.yml"
             sh "rm -fr index.html"
-            sh "wget https://github.com/murakami0512/ostraca/raw/master/sources/index.html"
+            sh "wget https://github.com/murakami0512/ostraca/raw/master/source/index.html"
             sh "rm -fr logo.png"
-            sh "wget https://github.com/murakami0512/ostraca/raw/master/sources/logo.png"
+            sh "wget https://github.com/murakami0512/ostraca/raw/master/source/logo.png"
         }
     }
 
